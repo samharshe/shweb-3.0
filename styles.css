@@ -85,10 +85,10 @@ a {
 }
 
 #lettermark_gallery {
+    display: inline;
     width: var(--size-12);
-    position: fixed;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .lettermark { 
@@ -106,9 +106,9 @@ a {
 #nav {
     width: var(--size-12);
     position: fixed;
+    display: inline;
     right: 0;
     flex-wrap: wrap;
-    justify-content: right;
 }
 
 li {
@@ -118,5 +118,4 @@ li {
 
 body {
     display: flex;
-    flex-direction: row;
 }
